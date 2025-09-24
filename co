@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda superrobot</title>
+    <link rel="icon" type="imagen/jpg" href="Imagenes/Fotos1.avif">
+    <style>
+        .nav{
+            background: #221a1a;
+            padding: 10px 0;
+        }
+        .nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul li{
+            margin: 0 15px;
+        }
+        nav ul li a{
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3%;
+        }
+        nav ul li a:hover{
+            color: red;
+        }
+        .contenedor{
+            background-color: rgb(255, 205, 251);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .titulo, .imagen{
+            text-align: center;
+            flex-basis: 170px;
+            flex-wrap: 1;
+        }
+        .imagen img{
+            max-width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 8px 4px 18px rgba(0, 0, 0, 3);
+            max-width: 180%; 
+        }
+        .footer{
+            background: rgb(0, 0, 0);
+            color: #ffffff; 
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">ofertas</a></li>
+            <li><a href="#">contactos</a></li>
+        </ul>
+    </nav>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>BIENVENIDOS A LA TIENDA SUPERBOT</h1>
+        </div>
+        <div class="imagen">
+            <img src="Imagenes/Fotos1.avif" >
+        </div>
+        <div class="titulo">
+            <h2>Descubre el jugete mas emocionante del año</h2>
+        </div>
+    </div>
+    <footer class="footer">
+        @2025 todos los derechos al autor.
+    </footer>
+</body>
+</html>
